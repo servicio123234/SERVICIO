@@ -1,0 +1,44 @@
+
+.nav .col-lg-2 .container .dropdown .nav-link, nav .container-fluid, nav .dropdown-toggle{
+    background-color: #005cab;
+}
+nav .container-fluid .collapse .nav-item a,nav .container-fluid .navbar-brand, .nav .col-lg-2 .container .nav-link{
+    color: cornsilk;
+}
+
+.headboard h1, footer h6{
+    color: #005cab;
+}
+.nav, .footer-style{
+    background-color: #c3d9e7;
+}
+.text-lg-start{
+    margin-top: 200px; 
+    background-color: #CACECF;
+}
+
+.fondoPagina{
+    background-color: #eef2f5;
+}
+
+.headboard{
+    background-color: #c3d9e7;
+}
+
+.center h4{
+    font-family: serif;
+    text-align: justify;
+}
+
+.center h5{
+    background-color: #eef2f5; 
+    text-align: left;    
+}
+
+.pregunta{
+    color: #005cab;
+}
+.btn .btn-primary, h6{
+    color: #ce6520;
+}
+

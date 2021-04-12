@@ -1,0 +1,56 @@
+
+.nav .col-lg-2 .container .dropdown .nav-link, nav .container-fluid, nav .dropdown-toggle{
+    background-color: #005cab;
+}
+nav .container-fluid .collapse .nav-item a,nav .container-fluid .navbar-brand, .nav .col-lg-2 .container .nav-link{
+    color: cornsilk;
+}
+.container .input-group{
+    margin-top:25px; 
+    width:300px;
+}
+.nav, .footer-style{
+    background-color: #c3d9e7;
+}
+.headboard h1, footer h6{
+    color: #005cab;
+}
+.text-lg-start{
+    margin-top: 200px; 
+    background-color: #CACECF;
+}
+nav .container-fluid #navbarNavDropdown .dropdown-menu a{
+    color: black;
+}
+
+.container .row .col-lg-4{
+    width: 260px; 
+    height: 210px; 
+    background-color: #eef2f5; 
+    margin-top: 20px;
+}
+.container .row .col-lg-4 .card-body .btn{
+    width: 210px; 
+    text-align: left;
+}
+.btn-primary{
+    color: rgb(68, 0, 255);
+}
+
+.fondoPagina{
+    background-color: #eef2f5;
+}
+
+.headboard{
+    background-color: #c3d9e7;
+}
+
+.center h4{
+    font-family: serif;
+    text-align: justify;
+}
+
+.center h5{
+    background-color: #eef2f5; 
+    text-align: center;
+}
