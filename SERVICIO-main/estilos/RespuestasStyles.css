@@ -43,13 +43,17 @@ nav .container-fluid .collapse .nav-item a,nav .container-fluid .navbar-brand, .
 }
 
 .span7{
-    border: 1px solid #8297aa;
+    border: 1px solid #c8d1d8;
+    border-radius: 10px;
     margin: auto;
 }
 
 .spanR{
-    border: 1px solid #8297aa;
+    border: 1px solid #c8d1d8;
     color: #fdfdfd; 
     background-color: #5cb85c;
 }
 
+li{
+    list-style: none;
+}

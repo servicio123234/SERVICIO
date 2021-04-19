@@ -38,7 +38,11 @@ nav .container-fluid .collapse .nav-item a,nav .container-fluid .navbar-brand, .
 .pregunta{
     color: #005cab;
 }
+
 .btn .btn-primary, h6{
     color: #ce6520;
 }
 
+li{
+    list-style: none;
+}

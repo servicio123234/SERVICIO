@@ -54,3 +54,6 @@ nav .container-fluid #navbarNavDropdown .dropdown-menu a{
     background-color: #eef2f5; 
     text-align: center;
 }
+li{
+    list-style: none;
+}

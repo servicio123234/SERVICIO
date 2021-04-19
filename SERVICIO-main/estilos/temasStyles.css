@@ -40,3 +40,6 @@ nav .container-fluid #navbarNavDropdown .dropdown-menu a{
 .fondoPagina{
     background-color: #eef2f5;
 }
+li{
+    list-style: none;
+}
