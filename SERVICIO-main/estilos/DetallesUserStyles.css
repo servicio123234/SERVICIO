@@ -1,0 +1,45 @@
+
+.nav .col-lg-2 .container .dropdown .nav-link, nav .container-fluid, nav .dropdown-toggle{
+    background-color: #005cab;
+}
+nav .container-fluid .collapse .nav-item a,nav .container-fluid .navbar-brand, .nav .col-lg-2 .container .nav-link{
+    color: cornsilk;
+}
+.container .input-group{
+    margin-top:25px; 
+    width:300px;
+}
+.nav, .footer-style{
+    background-color: #c3d9e7;
+}
+.nav h1, footer h6{
+    color: #005cab;
+}
+.text-lg-start{
+    margin-top: 200px; 
+    background-color: #CACECF;
+}
+nav .container-fluid #navbarNavDropdown .dropdown-menu a{
+    color: black;
+}
+
+a .btn-primary{
+    background-color: #ce6520;
+    
+}
+
+.fondoPagina{
+    background-color: #eef2f5;
+}
+li{
+    list-style: none;
+}
+h3, p{
+    color: #005cab;
+}
+h5{
+    color: #ce6520;
+}
+.pregunta{
+    color: #005cab;
+}
