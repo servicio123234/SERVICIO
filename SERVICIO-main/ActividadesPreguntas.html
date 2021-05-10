@@ -4,13 +4,13 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="estilos/temasStyles.css" />
+  <link rel="stylesheet" type="text/css" href="estilos/DetallesUserStyles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <title>TEMAS</title>
+  <title>Actividades usuario</title>
 </head>
 
 <body>
@@ -94,106 +94,73 @@
       </div>
     </div>
   </nav>
-
+  <div class="sec">
+    <div class="row">   
+      <!--primera columna-->
+      <div class="col-lg-1">  
+      </div>
+      <div class="col-lg-4">  
+        <h6>Inicio > Usuarios > Nombre > Actividades recientes</h6>
+      </div>
+    </div>  
+  </div>
+  <br>
   <div class="container">
-    <div class="input-group flex-nowrap">
-      <input type="search" class="form-control" placeholder="Busca una pregunta" aria-label="Username"
-        aria-describedby="addon-wrapping">
-      <button type="button" class="btn btn-primary">
-        <img src="imagenes/search.svg" alt="">
-      </button>
+  <div class="row">
+    <div class="col-lg-11">
+      <a class="btn btn-primary"  href="DetallesUser.html" role="button">Actividad Reciente</a>
+      <a class="btn btn-primary"  href="ActividadesPreguntas.html" role="button">Todas las preguntas</a>
+      <a class="btn btn-primary"  href="ActividadesPreguntas.html" role="button">Todas las respuestas</a>
     </div>
-    <div class="row">
-      <div class="card col-lg-4">
-        <!--Targeta de cada tema-->
-        <!--Estructura de temas-->
-        <div class="card-body">
-          <h5 class="card-title">Aritmetica</h5>
-          <!------------titulo--------------->
-          <a href="Preguntas.html" target="_blank" class="btn btn-primary"
-            style="width: 210px; text-align: left; 
-            background-color:#ffffff; color: #005cab;"> - 15 preguntas</a>
+  </div>
+  </div>
 
-          <!--------------DOCUMENTOS--------------------->
-            <button class="btn btn-primary " type="button" data-bs-toggle="collapse" 
-            data-bs-target="#collapseExample2" style="margin-top:10px; color: rgb(68, 0, 255); width:210px; height:45px; 
-            text-align: left; border-color:#c3d9e7; font-size: larger;" aria-expanded="false" aria-controls="collapseExample2">
-            <h6 style="color: #fff;">Documentos asociados</h6>
-          </button>
-          
-          <div class="collapse" id="collapseExample2">
-            <div class="card card-body">
-              <a href="#">Documento 1</a> 
-            </div>
-            <div class="card card-body">
-              <a href="#">Documento 2</a> 
-            </div>
-          </div>
-            <!--Documentos
-          <div class="dropdown" style="margin-top:10px">
-            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-              data-bs-toggle="dropdown" aria-expanded="false"
-              style="width: 210px; text-align: left; background-color:#ffffff; color: #005cab">
-              Documentos asociados
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">PDF 1</a></li>
-            </ul>
-          </div>-->
-
-          <!----------------------Subtemas------------------>
-          <button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-            style="margin-top:10px; color: rgb(68, 0, 255); width:210px; height:45px; text-align: left; border-color:#c3d9e7; font-size: larger;"
-            aria-expanded="false" aria-controls="collapseExample">
-            <h6 style="color: #fff;">Subtemas</h6>
-          </button>
-
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              <a href="#">Subtema1 - 10 Preguntas</a>
-              <div class="btn-group dropend">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Documentos
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">doc1</a></li>
-                  <li><a class="dropdown-item" href="#">doc2</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card card-body">
-              <a href="#">Subtema1 - 10 Preguntas</a>
-              <div class="btn-group dropend">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Documentos
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">doc1</a></li>
-                  <li><a class="dropdown-item" href="#">doc2</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card card-body">
-              <a href="#">Subtema1 - 10 Preguntas</a>
-              <div class="btn-group dropend">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Documentos
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">doc1</a></li>
-                  <li><a class="dropdown-item" href="#">doc2</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
+  <br><br>
+  <div class="container">
+    <div class="row">   
+      <div class="col-lg-9">  <!--Preguntas-->
+        <div class="container"> 
+         
+          <form action="#" method="get">
+            <h3>Todas las preguntas de quizeh</h3><br>
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Qué significado tiene multiplicar fracciones? </a> </h5>
+            <p> preguntado por <a href="#">Virginia</a> Ago 26, 2018 en <a href="#">Fracciones</a> </p>
+          </form>
+          <form action="#" method="get">
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Qué caracteriza la fracción como razón a un problema 
+              de fracción como operador multiplicativo? </a></h5>
+            <p>preguntado por <a href="#">petra</a> Ago 26, 2018 <a href="#">Fracciones</a></p>
+          </form>
+          <form action="#" method="get">
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Hay alguna clasificación en las
+               fracciones para abordarlas?¿ y por cuál debemos iniciar?</a></h5>
+            <p>preguntado por <a href="#">ibrahim70</a> Ago 26, 2018 en <a href="#">Fracciones</a></p>
+          </form>
+          <form action="#" method="get">
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Qué relación hay entre una razón y una proporción?</a></h5>
+            <p>preguntado por <a href="#">Isa</a> Ago 26, 2018 en <a href="#">Fracciones</a></p>
+          </form>
+          <form action="#" method="get">
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Qué significa dividir fracciones? </a></h5>
+            <p>preguntado por <a href="#">yao</a> Ago 26, 2018 en <a href="#">Fracciones</a></p>
+          </form>
+          <form action="#" method="get">
+            <hr>
+            <h5> <a class="pregunta" href="Respuestas.html">¿Qué es lo que sucede ( con el resultado) cuando se hace una 
+              multiplicación/división de fracciones? </a></h5>
+            <p>preguntado por <a href="#">yao</a> Ago 26, 2018 en <a href="#">Fracciones</a></p>
+          </form>
+          <hr><br>
         </div>
       </div>
     </div>
   </div>
+
   <!-- Footer -->
   <footer class="text-center text-lg-start">
     <div class="text-center p-3">
